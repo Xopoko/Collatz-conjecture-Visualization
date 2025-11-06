@@ -34,21 +34,48 @@ For example, starting with n=6:
 - **Quick Presets**: Jump to interesting numbers like 27, 97, 127, 871, 6171, and 9999
 - **Responsive Design**: Works on different screen sizes
 
-## Installation
+## Quick Start (Standalone Demo)
 
-This is a React component written in TypeScript (TSX). To use it in your project:
+Run the visualization directly without any existing React project:
 
 **Prerequisites:**
-- React 16.8+ (requires Hooks support)
-- TypeScript (optional, but recommended)
+- Node.js 16+ and npm (or yarn/pnpm)
 
 **Steps:**
 
-1. Copy the `collatz-visualization.tsx` file to your React project
+1. Clone this repository:
+```bash
+git clone https://github.com/Xopoko/Collatz-conjecture-Visualization.git
+cd Collatz-conjecture-Visualization
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to the URL shown in the terminal (usually `http://localhost:5173`)
+
+**Build for production:**
+```bash
+npm run build
+npm run preview
+```
+
+## Using as a Component
+
+You can also use the visualization as a React component in your own project:
+
+1. Copy the `src/CollatzVisualization.tsx` file to your React project
 2. Import and use the component:
 
 ```tsx
-import CollatzVisualization from './collatz-visualization';
+import CollatzVisualization from './CollatzVisualization';
 
 function App() {
   return <CollatzVisualization />;
