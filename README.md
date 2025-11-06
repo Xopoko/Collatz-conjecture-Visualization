@@ -38,6 +38,12 @@ For example, starting with n=6:
 
 This is a React component written in TypeScript (TSX). To use it in your project:
 
+**Prerequisites:**
+- React 16.8+ (requires Hooks support)
+- TypeScript (optional, but recommended)
+
+**Steps:**
+
 1. Copy the `collatz-visualization.tsx` file to your React project
 2. Import and use the component:
 
